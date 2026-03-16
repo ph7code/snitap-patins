@@ -1,4 +1,4 @@
-*, *::after, *::before {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,12 +20,12 @@
 html {
   font-family: 'Syne', sans-serif;
 }
-h1{
-  font: bold 4/1.25 'Syne', sans-serif ;
+h1, div > span{
+  font: bold 4rem/1.25 'Syne', sans-serif ;
 }
 h2{
-  font: bold 2.5/1.20 'Syne', sans-serif ;
+  font: bold 2.5rem/1.20 'Syne', sans-serif ;
 }
-span {
-  font: normal 0.875/1.50 'Montserrat', sans-serif ;
+span{
+  font: normal 0.875rem/1.50 'Montserrat', sans-serif ;
 }

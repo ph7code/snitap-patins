@@ -1,7 +1,5 @@
-@media ( width >= 80em){
-  .container{
-    max-width: 80em;
-    margin-inline: auto;
-    width: calc(100% - 2rem * 2);
-  }
+.container {
+  max-width: 80rem;
+  margin-inline: auto;
+  width: calc(100% - 2%);
 }
